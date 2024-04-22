@@ -1,5 +1,4 @@
-import React from "react";
-import {FC} from "react";
-export const App: FC = () => {
-    return <div>Hello</div>
-}
+import React, { FC } from 'react'
+import { FruitPanel } from './components/fragments/fruit-panel.fragment'
+
+export const App: FC<void> = () => <FruitPanel />
